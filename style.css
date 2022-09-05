@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: rgb(255,254,158);
+  background: linear-gradient(180deg, rgba(255,254,158,1) 0%, rgba(179,255,182,1) 20%, rgba(255,255,255,1) 60%);
+  text-align: center;
+}
+h3 {
+  font-size: 4vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+form {
+  text-align: center;
+  margin-bottom: 2vh;
+}
+#dateInput {
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 1.2vw;
+}
+#pyramid {
+  -webkit-clip-path: polygon(50% 0%, 5% 100%, 95% 100%);
+  clip-path: polygon(50% 0%, 5% 100%, 95% 100%);
+}
+button {
+  padding: 0px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  height: 35px;
+  width: 35px;
+  font-size: 2vw;
+  border-style: none;
+  background-color: grey;
+  color: black;
+}
+.level {
+  font-size: 2vw;
+  margin: 0 auto 0 auto;
+  padding: 1px;
+  text-align: center;
+  color: black;
+}
+.level:hover button {
+  background-color: #C9CCD1;
+  color: black;
+}
+.level:hover {
+  color: black;
+}
+.one {
+  background-color: #FFF752;
+  padding-top: 5%;
+}
+.two {
+  background-color: #FFA65E;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.three {
+  background-color: #FF91D6;
+}
+.four {
+  background-color: #BE84E8;
+}
+.five {
+  background-color: #65C8FC;
+}
+.six {
+  background-color: #61D4B3;
+}
+.label{
+  color: black;
+  font-size: 1.8vw;
+  font-weight:600;
+  padding-bottom: 0;
+}
+.contents{
+  margin-bottom: 10px;
+}
